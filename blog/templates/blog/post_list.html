@@ -11,6 +11,16 @@
             <li> Create and work in a virtual enviroment.</li>
             <li> Always mention the host server in our settings.py file. </li>
             <li> This is all i remember yeah never forget to make migrations and never put your local db on the server we should all follow the best practices that makes our job really easy. Yeah it does.</li>
+            <ul>
+                {%for post in posts%}
+                <article>
+                    <time> Published: {{post.published_date}}</time>
+                    <h2><a href =""> {{post.title}}</a></h2>
+                    <p> {{ post.text|linebreaksbr}}</p> 
+                </article>
+                    
+                {%endfor%}
+            </ul>
         </ul>
     </div>
 </body>
