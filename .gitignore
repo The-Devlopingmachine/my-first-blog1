@@ -1,4 +1,5 @@
 # The following will contain all the git files we wish to ignore
+
 # Python
 *.pyc
 *~
