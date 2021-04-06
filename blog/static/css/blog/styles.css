@@ -1,0 +1,30 @@
+body
+{
+    background-color: whitesmoke;
+}
+
+header{
+    position: sticky;
+}
+header h1{
+    background-color: rgba(229, 255, 0, 0.349);
+    padding: 30px;
+}
+
+.new_post h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.new_post a{
+    color: rgba(111, 150, 33, 0.822);
+}
+
+.post-form
+{
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}

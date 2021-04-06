@@ -1,0 +1,7 @@
+* Django and learning for frontends
+
+Tip 
+
+1) Always write <link href="#" rel = "stylesheet"> in order to serve your static files and in order to serve your static files properly the files should follow the following structure.
+
+base_dir/app_dir/static/app_name/file_name.css
